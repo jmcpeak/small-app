@@ -34,6 +34,9 @@
     "prettier": "latest",
     "source-map-explorer": "latest"
   },
+  "resolutions": {
+    "object-path": "^0.11.5"
+  },
   "scripts": {
     "analyze": "npm run build && source-map-explorer build/static/js/*.js",
     "start": "react-scripts start",
