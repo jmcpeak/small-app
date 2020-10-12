@@ -3,21 +3,45 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "@emotion/core": "latest",
+    "@emotion/styled": "latest",
+    "@material-ui/core": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-scripts": "latest"
+  },
+  "devDependencies": {
+    "@material-ui/codemod": "latest",
+    "@storybook/addon-actions": "latest",
+    "@storybook/addon-storyshots": "latest",
+    "@storybook/addons": "latest",
+    "@storybook/preset-create-react-app": "latest",
+    "@storybook/react": "latest",
+    "@testing-library/jest-dom": "latest",
+    "@testing-library/react": "latest",
+    "@testing-library/user-event": "latest",
+    "enzyme": "latest",
+    "enzyme-adapter-react-16": "latest",
+    "eslint-config-airbnb": "latest",
+    "eslint-config-prettier": "latest",
+    "eslint-plugin-jest": "latest",
+    "eslint-plugin-jest-dom": "latest",
+    "eslint-plugin-prettier": "latest",
+    "eslint-plugin-sonarjs": "latest",
+    "eslint-plugin-testing-library": "latest",
+    "jest-environment-jsdom-sixteen": "latest",
+    "jest-prop-type-error": "latest",
+    "prettier": "latest",
+    "source-map-explorer": "latest"
   },
   "scripts": {
+    "analyze": "npm run build && source-map-explorer build/static/js/*.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "eject": "react-scripts eject",
+    "serve": "serve -s build",
+    "lintfix": "eslint . --fix"
   },
   "browserslist": {
     "production": [
