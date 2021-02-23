@@ -4,11 +4,11 @@
   "private": true,
   "dependencies": {
     "@emotion/core": "next",
-    "@emotion/styled": "next",
+    "@emotion/styled": "11.0.0",
     "@material-ui/core": "next",
     "react": "next",
     "react-dom": "next",
-    "react-scripts": "next"
+    "react-scripts": "4.0.0"
   },
   "devDependencies": {
     "@material-ui/codemod": "next",
