@@ -8,7 +8,7 @@
     "@material-ui/core": "next",
     "react": "next",
     "react-dom": "next",
-    "react-scripts": "next"
+    "react-scripts": "4.0.0"
   },
   "devDependencies": {
     "@material-ui/codemod": "next",
